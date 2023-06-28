@@ -1,0 +1,48 @@
+.form{
+    width: 100%;
+}
+.form__title{
+    text-align: left;
+}
+
+.form__group{
+    position: relative;
+    margin-top: 1.5rem;
+}
+.form__input{
+    width: 100%;
+  
+    outline: none;
+    border: none;
+    font-family: var(--font-family);;
+    min-height: 48px;
+    padding-left: 12px;
+    padding-top: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+.form__label{
+    position: absolute;
+    left: 12px;
+    top: 8px;
+    color: #828482;
+    font-size: 12px;
+}
+
+.form__input:focus ~ .form__label{
+    color: var(--bg-primary);
+    font-weight: 700;
+}
+
+@media screen  and (min-width:768px){
+    .form__group{
+        margin-top: 8px;
+    }
+  
+  }
+
+  @media screen  and (min-width:1024px){
+    .form{
+        width: 50%;
+    }
+  
+  }

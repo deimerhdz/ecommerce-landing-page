@@ -1,0 +1,29 @@
+.header{
+    height: 192px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../../image/banner.jpg');
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: var(--bg-white);
+  
+}
+.header .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+.header__cta{
+    color: var(--bg-white);
+    background-color: var(--bg-primary);
+    align-self: flex-start;
+    border: none;
+}
+
+@media screen  and (min-width:768px){
+  .header{
+    height: 352px;
+  }
+}
