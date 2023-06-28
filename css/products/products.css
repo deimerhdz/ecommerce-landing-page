@@ -29,6 +29,6 @@
         grid-template-columns: repeat(5,1fr);
     }
     .product__content .card:last-child{
-        display: block;
+        display: flex;
     }
   }

@@ -1,5 +1,6 @@
 .form{
     width: 100%;
+    margin: 0 auto;
 }
 .form__title{
     text-align: left;
@@ -9,13 +10,17 @@
     position: relative;
     margin-top: 1.5rem;
 }
+.form--common{
+   
+    padding: 9rem 0px;
+}
 .form__input{
     width: 100%;
   
     outline: none;
     border: none;
     font-family: var(--font-family);;
-    min-height: 48px;
+    min-height: 56px;
     padding-left: 12px;
     padding-top: 1rem;
     border-bottom: 1px solid var(--border-color);
@@ -37,7 +42,17 @@
     .form__group{
         margin-top: 8px;
     }
-  
+    .form--login{
+        width: 450px!important;
+    }
+    .form--login .form__input{
+        padding-top: 0px;
+        margin-bottom: 1rem;
+    }
+    .form--login .button{
+        margin: 0 auto;
+        display: block;
+    }
   }
 
   @media screen  and (min-width:1024px){

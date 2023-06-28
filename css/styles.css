@@ -6,7 +6,8 @@
     --bg-primary:#2A7AE4;
     --bg-secondary:#EAF2FD;
     --border-color:#c8c8c8;
-    --font-family:'Raleway', sans-serif
+    --font-family:'Raleway', sans-serif;
+    --bg-gray:#f5f5f5;
 }
 *{
     margin: 0px;
@@ -40,6 +41,8 @@ body,html{
 .button{
     height: 42px;
     padding: 0 1rem;
+    line-height: 42px;
+    text-align: center;
     min-width: 133px;
     outline: none;
 }
@@ -63,4 +66,17 @@ body,html{
 .logo{
     display: flex;
     align-items: center;
+}
+
+.bg-gray{
+    background-color:var(--bg-gray) ;
+}
+.text--center,h3.text--center{
+    text-align: center;
+}
+.button-block{
+    width: 100%;
+}
+.form--common{
+    margin-bottom: 10rem !important;
 }
