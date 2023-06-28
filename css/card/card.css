@@ -7,6 +7,6 @@
     font-weight: 300;
 }
 .card__img{
-    width: 156px;
+    width: 100%;
     min-width: 156px;
 }
